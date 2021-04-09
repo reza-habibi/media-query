@@ -31,3 +31,32 @@
     height: 200px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    /* flex-flow: column; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+}
